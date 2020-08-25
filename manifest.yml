@@ -1,0 +1,10 @@
+---
+applications:
+- name: bora-egovadmin
+  memory: 512M
+  host: bora-egovadmin
+  domain: paas-ta.org
+  services:
+  - bora-egov-db
+  instances: 1
+  disk_quota: 512M
